@@ -75,3 +75,26 @@ font-size: large;        }
             text-decoration: underline;
             color: black;
         }
+.container-SB {
+            background-color: white;
+            color: #1f145c;
+            padding: 20px;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+}
+.container-SB img {
+            max-width:200px;
+            max-height:150px;
+            width: auto;
+            height: auto;
+}
+.preto {
+            color: black
+}
+.texto-sobre-mim {
+            display: flex;
+            flex-direction: row;
+
+}
