@@ -118,3 +118,109 @@ font-size: large;        }
             height: auto;
             padding: 20px;
 }
+
+.container-SB {
+            background-color: #1f145c;
+            color: whitesmoke;
+            padding: 20px;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+}
+.caixa-texto-imagem {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            max-width: 70vw;
+            margin: 0 auto;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+}
+
+.texto-sobre-mim {
+            flex: 1;
+            padding: 40px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.texto-sobre-mim p{
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            margin: 0;
+}
+
+.caixa-texto-imagem img {
+            max-width: 200px;
+            height: auto;
+            padding: 20px;
+}
+.texto-diferencial {
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            max-width: 70vw;
+            margin: 0 auto;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+            padding: 1px;
+}
+.caixa-cta {
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            max-width: 70vw;
+            margin: 0 auto;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+            padding: 1px;
+}
+.preto {
+            color: black;
+}
+.contato-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+            gap: 30px;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 70vw;
+            border-radius: 20px;
+            margin-top: 40px;
+}
+
+.contato-item {
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+}
+
+.contato-item i {
+            font-size: 36px;
+            color: #0f172a; /* Azul escuro ou personalize */
+            margin-bottom: 10px;
+}
+
+.contato-item h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0f172a;
+}
+
+.contato-item p {
+            font-size: 16px;
+            color: #000;
+}
